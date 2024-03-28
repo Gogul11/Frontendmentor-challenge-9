@@ -1,0 +1,139 @@
+body{
+    font-size: 20px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#h1{
+    font-size: 1.5rem;
+    font-weight: 200;
+    color: hsl(0, 0%, 59%);
+}
+
+#h2{
+
+    font-size: 0.8rem;
+    color: hsla(209, 33%, 12%, 0.9);
+    margin: 20px 0px 25px 0px;
+}
+
+#heading,
+#image{
+
+    text-align: center;
+}
+
+#mail,
+#sub{
+
+    height: 45px;
+    margin: 10px;
+    border-radius: 25px;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#mail{
+    width: 270px;
+    border-color: hsla(223, 100%, 88%, 0.8);
+    padding-left:25px;
+    border-style:solid;
+}
+#mail::placeholder{
+
+    color: hsla(223, 100%, 88%, 0.7);
+    font-size: 0.9rem;
+}
+#sub{
+    width: 300px;
+    background-color: hsl(223, 87%, 63%);
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+#form button:hover{
+
+    cursor: pointer;
+    background-color: hsla(223, 87%, 63%, 0.7);
+}
+#head{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+#head p{
+
+    font-size: 1.5rem;
+    margin: 3px;
+}
+#heading img{
+
+    height: 1.3rem;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    margin-top: 20px;
+}
+#image img{
+
+    height: 190px;
+    width: 320px;
+    margin: 45px 0px;
+}
+#footimg img{
+
+    height: 20px;
+    border-radius: 50%;
+    border: 1px solid hsla(0, 0%, 59%, 0.3);
+    padding: 5px;
+}
+
+footer p{
+
+    color: hsla(0, 0%, 59%, 0.8);
+    font-size: 0.7rem;
+
+}
+
+#err-state{
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.7rem;
+    color: red;
+}
+
+@media (min-width: 400px)
+{
+    #form{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #mail{
+        width: 350px;
+    }
+
+    #sub{
+        width: 150px;
+    }
+
+    #image img{
+
+        width: 550px;
+        height: 300px;
+        text-align: center;
+    }
+}

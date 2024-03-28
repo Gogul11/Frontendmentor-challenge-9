@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>Notify form</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="notifyform.css">
+        <link rel="icon" href="images/favicon-32x32.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    </head>
+
+    <body>
+        <div id="main">
+
+            <div id="heading">
+                <img src="images/logo.svg">
+                <div id="head">
+                    <p id="h1"> We are launching</p>
+                    <p><b>soon!</b></p>
+                </div>
+                <p id="h2">Subscribe and get notified</p>
+            </div>
+
+            <div id="form">
+                <div>
+                    <input type="email" id="mail" required placeholder="Your email address..">
+                    <div id="err-state"></div>
+                </div>
+                <div>
+                    <button id="sub" type="submit" onclick="check()">Notify Me</button>
+                </div>
+            </div>
+
+            <div id="image">
+                <img src="images/illustration-dashboard.png" alt="illustration-dashboard">
+            </div>
+
+            <footer>
+                <div id="footimg">
+                    <img src="images/facebook.svg"alt="facebook icon">
+                    <img src="images/twitter.svg" alt="twitter icon">
+                    <img src="images/instagram.svg" alt="instagram icon">
+                </div>
+                <p>&copy; Copyright Ping. All rights reserved.</p>
+            </footer>
+        </div>
+
+        <script src="notifyform.js"></script>
+
+    </body>
+</html>
